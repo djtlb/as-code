@@ -1,0 +1,6 @@
+[build]
+nixpacksPlan = "python"
+
+[deploy]
+startCommand = "python3 main.py"
+restartPolicyType = "ON_FAILURE"
